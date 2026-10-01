@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "selenium": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@angiejones/mcp-selenium",
+        "D:/"
+      ]
+    },
+    "wenyan-mcp-发布微信公众号": {
+      "command": "node",
+      "args": [
+        "D:/Workspace/hui/web/wenyan-mcp/dist/index.js"
+      ],
+      "env": {
+        "WECHAT_APP_ID": "wx4a128c315d9b1228",
+        "WECHAT_APP_SECRET": "-----使用你的进行替换-----"
+      }
+    }
+  }
+}
